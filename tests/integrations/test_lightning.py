@@ -31,8 +31,8 @@ from torchmetrics import MetricCollection
 from torchmetrics.aggregation import SumMetric
 from torchmetrics.classification import BinaryAccuracy, BinaryAveragePrecision
 from torchmetrics.regression import MeanSquaredError
-from torchmetrics.wrappers import MultitaskWrapper
 from torchmetrics.utilities.prints import rank_zero_only
+from torchmetrics.wrappers import MultitaskWrapper
 
 from integrations.helpers import no_warning_call
 from integrations.lightning.boring_model import BoringModel
